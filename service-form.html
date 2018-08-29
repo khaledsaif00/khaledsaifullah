@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.png">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Order Information</title>      <!-- Main Page Title -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">    <!-- Bootstrap -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">   <!-- Font Awesome -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">    <!-- Font roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">    <!-- Font Open Sanse -->
+    <link href="style.css" rel="stylesheet"> <!-- main StyleSheet -->
+    <link href="css/responsive.css" rel="stylesheet"> <!-- responsive StyleSheet -->
+  </head>
+
+    <!-- Body -->
+  <body>
+
+    <!--===== Header ===== -->
+    <header id="sticker" class="header">
+      <div class="menu-area"> <!-- Menu-area  -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 no-padding">    <!-- No Padding -->
+              <div class="logo hidden-sm"> <!-- Logo  -->
+                <a href="index.html"><img src="img/logo.png" alt=""></a>   <!-- Main logo -->
+              </div> <!-- Logo End  -->
+              <div class="dropdown mobile-menu hidden-sm hidden-md hidden-lg">    <!-- Mobile Menu -->
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>    <!-- Drop Down Button -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a href="index.html">Home</a></li>   <!-- Mobile Menu Home -->
+                  <li role="presentation"><a href="index.html">About Us</a></li> <!-- Mobile Menu About US -->
+                  <li role="presentation"><a href="index.html">Our Training</a></li> <!-- Mobile Menu Our Training -->
+                  <li class="mobibe-sub-menu" role="presentation"><a href="#">Gallery <span class="caret-right"><i class="fa fa-caret-right" aria-hidden="true"></i></span></a> <!-- Mobile Menu Gallery -->
+                    <div class="m-sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>    <!-- Mobile Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>    <!-- Mobile Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>  <!-- Mobile Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>   <!-- Mobile Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Mobile Menu Contact Us -->
+                  <li><a href="index.html">Log In </a></li> <!-- Mobile Menu Contact Us -->
+                </ul>
+              </div>    <!-- Mobile Menu end -->
+
+
+              <nav class="main-menu  hidden-xs"> <!-- Main-Menu  -->
+                <ul id="nav">
+                  <li><a href="index.html">Home</a></li>   <!-- Menu Home -->
+                  <li><a href="index.html">About Us</a></li> <!-- Menu About Us -->
+                  <li><a href="index.html">Our Training</a></li> <!-- Menu Our Training -->
+                  <li><a href="index.html">Our Service</a></li>  <!-- Menu Our Service -->
+                  <li class="sub-menu-base"><a href="#">Gallery</a> <!-- Menu Gallery -->
+                    <div class="sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>  <!-- Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>  <!-- Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>   <!-- Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>  <!-- Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Menu Contact Us -->
+                  <li><a href="log-in.html"><i class="fa fa-user" aria-hidden="true"></i></a></li> <!-- log in button  -->
+                </ul>
+              </nav> <!-- Main-Menu end  -->
+            </div>
+          </div>
+        </div>
+      </div> <!-- Menu-area end  -->
+    </header>
+      <!--===== Header end ===== -->
+
+  <!--====== Order Form =======-->
+      <div class="service-form-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="service-form-wripper">  <!-- Order form wripper  -->
+                <div class="service-form-title">
+                  <h2>Order Information</h2>   <!-- Order form title  -->
+                </div>
+                <form class="order-form" action="index.html" method="post">    <!-- Order form  -->
+                  <p>Name</p>
+                  <input type="text" name="" value="" placeholder="Provide your name">   <!-- Input Name  -->
+                  <p>Phone</p>
+                  <input type="text" name="" value="" placeholder="Provide your phone number">  <!-- Input Phone Number  -->
+                  <p>Address</p>
+                  <input type="text" name="" value="" placeholder="provide your address">   <!-- Input Address  -->
+                  <p class="display">What is your order? :</p>  <!-- Sub title  -->
+                  <select class="select-sub">   <!-- Order Catagori  -->
+                    <option value="select">Select One</option>  <!-- Sellect one  -->
+                    <option value="website-create">Website Create</option>  <!-- Website Create  -->
+                    <option value="domain-hosting">Domain and Hosting</option>  <!-- Domain and Hosting  -->
+                    <option value="hardware">Hardware Support</option>  <!-- Hardware Support  -->
+                    <option value="video">Video Ads</option>  <!-- Video admisson-form  -->
+                    <option value="design-work">Design Related Work</option>  <!-- All Of design work  -->
+                    <option value="printing-work">Printing Related Work</option>  <!-- All of printing work  -->
+                  </select>   <!-- Order Catagori end -->
+                  <p class="display">Dalivery Date :</p>  <!-- Dalivery date  -->
+                  <select class="select-day"> <!-- Sellect your days  -->
+                    <option value="select">Day</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>   <!-- Sellect your days end  -->
+
+                  <select class="select-month" name="">   <!-- Sellect your Month  -->
+                    <option value="month">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="agust">Agust</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                  </select> <!-- Sellect Your month  -->
+
+                  <select class="select-year" name="">  <!-- Sellect your Year  -->
+                    <option value="year">Year</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                  </select>   <!-- Sellect your year  -->
+
+                  <div class="service-form-sub-btn">
+                    <button type="button" name="button">Submit</button> <!-- submit button  -->
+                  </div>
+                </form>    <!-- Order form end  -->
+              </div>     <!-- Order form wripper end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--====== Order Form end=======-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>   <!-- Bootstrap js -->
+    <script src="js/jquery.nav.js"></script>    <!-- One Page Nav js -->
+    <script src="js/parallax.min.js"></script>    <!-- Parallax js -->
+    <script src="js/jquery.sticky.js"></script>   <!-- Sticky js -->
+    <script src="js/owl.carousel.min.js"></script>  <!-- Owl Carosel js -->
+    <script src="js/jquery.mixitup.min.js"></script>  <!-- Mix it up js -->
+    <script src="js/main.js"></script>    <!-- Main js -->
+  </body>
+  <!--=== Body End=== -->
+</html>

@@ -1,0 +1,1060 @@
+
+/*================ Home Page css ===============*/
+/*----------------
+    1.Defult Css
+------------------*/
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: roboto;
+}
+ul{
+  list-style: none;
+}
+
+.title h2 {
+	font-size: 60px;
+	font-weight: 500;
+	color: #000;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+h4{
+  font-family: Open sans;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ff0000;
+}
+
+.training-description .bold{
+  font-weight: 700;
+  color: yellow;
+}
+
+/*----------------
+    2. Menu-area css
+------------------*/
+
+.header {
+	margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999999;
+}
+.menu-area {
+	background: #fff;
+}
+.menu-area .logo{
+  float: left;
+  margin-top: -15px
+}
+.menu-area .logo img {
+	height: 80px;
+	margin-top: 15px;
+}
+  .menu-area .main-menu {
+  	float: right;
+  	margin-top: 12px;
+  }
+.menu-area .main-menu ul{}
+.menu-area .main-menu ul .current{}
+.menu-area .main-menu ul .current a{
+  background:#0ab601;
+}
+  .menu-area .main-menu ul li {
+  	display: inline-block;
+  }
+  .menu-area .main-menu ul li a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	transition: .4s;
+	background: #ff0000;
+	display: inline-block;
+	padding: 10px 15px;
+}
+  .menu-area .main-menu ul li a:hover{
+  	background: #0ab601;
+  }
+  .menu-area .main-menu ul .sub-menu-base{
+    position: relative;
+
+  }
+  .menu-area .main-menu ul .sub-menu-base a {
+	width: 160px;
+}
+.menu-area .main-menu ul .sub-menu-base .sub-menu {
+	position: absolute;
+	left: -40px;
+	top: 60px;
+	visibility: hidden;
+  transition: .4s;
+  z-index: 9999999999;
+}
+.menu-area .main-menu ul .sub-menu-base .sub-menu::before {
+	content: "";
+	height: 15px;
+	width: 15px;
+	background: #ff0000;
+	position: absolute;
+	left: 43px;
+	transform: rotate(45deg);
+	top: -7px;
+}
+.menu-area .main-menu ul .sub-menu-base:hover .sub-menu {
+	top: 45px;
+	visibility: visible;
+}
+  .menu-area .main-menu ul .sub-menu-base ul{}
+  .menu-area .main-menu ul .sub-menu-base ul li{
+    display: block;
+  }
+  .menu-area .main-menu ul .sub-menu-base ul li a{}
+
+/*----------------
+    3. Intro css
+------------------*/
+
+.intro{
+position: relative;
+}
+.intro::before {
+	content: "";
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.intro .intro-contant {
+	padding: 100px 50px;
+}
+.intro .intro-contant h1{
+  color: #fff;
+  font-family: roboto;
+}
+.intro .intro-contant h1 .smal {
+	font-size: 100PX;
+	font-weight: 700;
+}
+.intro .intro-contant h1 .medium{
+  font-size: 100PX;
+	font-family: roboto;
+	font-weight: 700;
+}
+.intro .intro-contant h1 .big {
+	font-size: 150px;
+	font-weight: 900;
+}
+/*----------------
+    4. About css
+------------------*/
+
+.about-area {
+	padding: 50px 0;
+}
+.about-area .title{}
+.about-area .about-contant{}
+  .about-area .description {
+	margin: 30px 0;
+}
+  .about-area .description p {
+  	font-size: 15px;
+  	line-height: 28px;
+  	letter-spacing: 1px;
+  }
+  .about-area .special-options{}
+  .about-area .special-options p {
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.about-area .special-options p .arrow-icon {
+	font-size: 20px;
+	margin-right: 15px;
+	padding-left: 25px;
+}
+
+/*-----------------------
+    5. Our Training css
+-------------------------*/
+
+.training-area {
+	padding: 50px 0;
+  background: #f8f3f3;
+}
+.training-area .training-items {
+	margin: 50px 0;
+  display: block;
+}
+.training-area .training-items .item{}
+.training-area .training-items .item{}
+.training-area .training-items .item .training-base{
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+  .training-area .training-items .item .training-base img {
+  	width: 100%;
+  }
+  .training-area .training-items .item .training-base .hover-img {
+	position: absolute;
+	z-index: 1;
+  transition: .7s;
+  bottom: 0;
+}
+  .training-area .training-items .item .training-base:hover .hover-img {
+    bottom: -290px;
+}
+  .training-area .training-items .item .training-base .hover-img img{}
+    .training-area .training-items .item .training-base .training-description {
+    	color: #fff;
+    	position: absolute;
+    	top: 30px;
+    	left: 20px;
+    }
+
+
+.training-area .training-items .item .training-base .training-description p{
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+  .registration-btn {
+
+  }
+  .all-btn a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 45px;
+	font-family: Open Sans;
+	background: #f20000;
+	line-height: 105px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: 50px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+	transition: .5s;
+	padding: 0 50px;
+}
+  .all-btn a:hover{
+    background: #0ab601;
+  }
+/*-----------------------
+    6. Our Service css
+-------------------------*/
+
+.service-area {
+	padding: 50px 0;
+	background: #ede7e7;
+}
+.service-area .service-items {
+	margin: 50px 0;
+}
+.service-area .service-items .s-item {
+width: 100%;
+height: 180px;
+box-shadow: 0px 0 15px rgba(0,0,0,.5);
+border-radius: 10px;
+display: table;
+transition: .4s;
+font-size: 25px;
+font-weight: 700;
+color: #df0006;
+text-decoration: none;
+background: #fff;
+}
+.service-area .service-items .s-item:hover {
+box-shadow: none;
+cursor: pointer;
+}
+  .service-area .service-items .s-item .s-item-wripper {
+	display: table-cell;
+	vertical-align: middle;
+}
+  .service-area .service-items .s-item .icon{
+    display: block;
+  }
+
+
+/*-----------------------
+    7. Download app css
+-------------------------*/
+.download-app {
+	text-align: center;
+	padding: 50px 0;
+  position: relative;
+}
+.download-app img {}
+/*-----------------------
+    8. Contact us css
+-------------------------*/
+.contact-us-area{
+  background: #000;
+  padding: 50px 0;
+}
+.contact-us-area .title h2{
+  color:#fff;
+}
+.contact-us-area .location {
+	margin: 50px 0;
+}
+.contact-us-area .location .phone{}
+.contact-us-area .location .location-details{}
+  .contact-us-area .location .location-details .con-icon {
+	height: 36px;
+	width: 36px;
+	background: #fff;
+	display: inline-block;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 50%;
+}
+  .contact-us-area .location .location-details p {
+  	display: inline-block;
+  	font-size: 18px;
+  	font-weight: 500;
+  	color: #fff;
+    margin-left: 15px;
+  }
+  .social-icons{}
+    .social-icons .facebook {
+  	display: inline-block;
+  	margin: 5px;
+  }
+    .social-icons .social-i {
+  	height: 60px;
+  	width: 60px;
+  	font-size: 30px;
+  	background: #fff;
+  	display: inline-block;
+  	line-height: 60px;
+  	text-align: center;
+  	border-radius: 50%;
+  }
+    .social-icons .social-i a{
+  	color: #000
+  }
+  .contact-us-area .sub-title{}
+  .contact-us-area .sub-title h5{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .contact-us-area .contact-form{}
+    .contact-us-area .contact-form input {
+  	width: 470px;
+  	height: 50px;
+  	border-radius: 5px;
+  	margin: 15px;
+  	padding: 0 15px;
+  	font-size: 18px;
+  	letter-spacing: 1px;
+  }
+  .contact-us-area .contact-form textarea {
+	width: 470px;
+	height: 100px;
+	margin: 15px;
+	border-radius: 5px;
+  padding: 15px 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.contact-us-area .contact-form button {
+background: #ff0000;
+border: none;
+border-radius: 5px;
+padding: 10px 35px;
+font-size: 25px;
+font-weight: 700;
+color: #fff;
+float: right;
+margin-right: 100px;
+transition: .4s;
+}
+.contact-us-area .contact-form button:hover{
+  background: #0ab601;
+}
+.call-now{}
+  .call-now p {
+  	font-size: 50px;
+  	font-weight: 900;
+  	color: #ff0000;
+  }
+/*-----------------------
+    9. Copy Right css
+-------------------------*/
+.copy-right-area {
+	height: 100px;
+	background: #000;
+	border-top: 2px solid #fff;
+}
+.copy-right-area p {
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 100px;
+}
+/*-----------------------
+    9. Contact us css
+-------------------------*/
+
+
+
+/*--=============== Log In Page css =================--*/
+
+
+/*-----------------------
+  1.  Log in form area css
+=-----------------------*/
+
+.log-in-form-area{
+  background-image: url(img/bg-1.jpg);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: table;
+  font-family: roboto;
+}
+.log-in-form-wripper{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.log-in-form-area .log-in-form{
+  background: #fff;
+  padding: 50px;
+  display: inline-block;
+}
+.log-in-form-area .log-in-form p{
+  text-align: left;
+  font-size: 16px;
+  margin: 0;
+}
+.log-in-form-area .log-in-form input{
+  text-align: left;
+  display: block;
+  height: 40px;
+  width: 400px;
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 0px 15px;
+}
+.log-in-form-area .log-in-form button{
+  float: left;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+.log-in-form-area .log-in-form a{
+  float: right;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+
+
+
+
+/*=================== Notice Board css ==============*/
+
+
+.bold{
+  font-weight: 500;
+  color: #000;
+}
+/*----------------------
+    1. Notice board css
+-----------------------*/
+.notice-board-area{
+  padding: 50px;
+  background-image: url(img/notice-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main-board-wriper{
+  background: #fff;
+}
+.notice-board-area .title {
+	margin-bottom: 41px;
+	background: red;
+	padding: 20px 0;
+}
+.notice-board-area .title h3 {
+	font-size: 40px;
+	color: #fff;
+}
+
+
+/*======Top news =======*/
+
+.notice-board-area .top-notice-wriper{
+  margin-left: 70px;
+}
+.notice-board-area .top-notice-title{}
+  .notice-board-area .top-notice-title h4 {
+  	font-family: roboto;
+  	font-size: 22px;
+  	color: #000;
+  	margin: 25px 0;
+  }
+.notice-board-area .top-notice-owner{}
+.notice-board-area .top-notice-owner .notice-owner-image{
+  float: left;
+  display: inline-block;
+}
+  .notice-board-area .top-notice-owner .notice-owner-image img {
+  	border-radius: 50%;
+  	height: 100px;
+  }
+  .notice-board-area .notice-owner-description {
+  	display: inline-block;
+  	margin-left: 25px;
+  	margin-top: 15px;
+  }
+  .notice-board-area .notice-owner-description p {
+  	font-size: 20px;
+  	line-height: 30px;
+  	letter-spacing: 1px;
+  }
+
+/*======Main-board =======*/
+
+.main-board{
+  width: 100%;
+  border-top: 2px solid #000;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+  .main-board .top-notice {
+  	width: 100%;
+  	height: 330px;
+  	box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 30px;
+    position: relative;
+  }
+  .main-board .top-notice img {
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translate(-50%);
+  height: 80px;
+}
+
+/*======Calender css =======*/
+
+.month {
+	padding: 15px 25px;
+	width: 100%;
+	background: #4dbd2b;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.year-font{
+  font-size: 18px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+	display: inline-block;
+	width: 12.6%;
+	color: #666;
+	text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+	list-style-type: none;
+	display: inline-block;
+	width: 12.6%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    border-radius: 50%;
+    color: white !important
+}
+
+.last-date{
+  margin-top: 20px;
+}
+  .last-date p {
+  	font-size: 25px;
+  	letter-spacing: 1px;
+  }
+  mark {
+	background: red;
+	color: #fff;
+}
+
+/*======Previous Notice =======*/
+.Previous-notice{
+  margin-top: 50px;
+}
+.Previous-notice .previous-1{}
+.Previous-notice .pre-notice{}
+.Previous-notice .pre-notice img{
+  width: 100%
+}
+
+
+
+
+/*================= Registration Sheet css =====================*/
+
+.requard-alert{
+  color: red;
+}
+
+/*-------------------------
+    1.Application Form Css
+--------------------------*/
+.registration-form{
+  background-image: url(img/office_design_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+.registration-form .registration-form-wripper{
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding: 50px 25px;
+  width: 80%;
+  margin-top: 30px;
+}
+.registration-form .form-title h2{
+  font-size: 40px;
+  color: #000;
+}
+.registration-form .form-lang{}
+.registration-form .form-lang p{
+  font-size: 16px;
+  margin: 25px 0;
+}
+.registration-form .requard{}
+.registration-form .requard p{
+  font-size: 16px;
+  color: red;
+}
+.input-index{}
+.input-index p{
+  font-size: 25px;
+  margin-top: 20px;
+}
+.input-index input{
+  height: auto;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.radio-click{
+  font-size: 25px;
+}
+.radio-click p{
+  margin: 40px 0 20px 0;
+  font-weight: 700;
+}
+.subject{}
+.radio-click .radio-btns{
+font-size: 22px;
+letter-spacing: 1px;
+color: #000;
+}
+.radio-click .radio-btns ul{
+  margin-left: -40px;
+}
+.radio-click .radio-btns ul li{
+  margin: 15px 0;
+}
+.radio-click .radio-btns ul li input{
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.radio-click .radio-btns ul li label{
+    color: #000;
+    font-weight: 500;
+}
+
+.comment-box{}
+.comment-box input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+ .submit-btn{}
+.submit-btn button{
+    padding: 10px 20px;
+    border: none;
+    background: #ff0000;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+  }
+
+
+
+
+/*======================= Order Now Form css ================*/
+
+/*--------------------
+    1.Service Form Css
+---------------------*/
+.service-form-area{
+  background-image: url(img/services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.service-form-area .service-form-wripper {
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    padding: 40px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.service-form-area .service-form-title{}
+.service-form-area .service-form-title h2{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #000;
+}
+.service-form-area .order-form{}
+.service-form-area .order-form p{
+  font-size: 25px;
+  color: #000;
+}
+.service-form-area .order-form .display{
+  display: block;
+  margin-top: 25px;
+}
+.service-form-area .order-form input{
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 80%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
+.select-sub {
+    font-size: 18px;
+}
+.select-sub option{}
+
+  .service-form-sub-btn{
+  margin-top: 30px;
+  }
+  .service-form-sub-btn button{
+    padding: 10px 20px;
+    border: none;
+    background: #ff0000;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+  }
+
+
+
+
+/*====================== Student Gallery css =====================*/
+
+
+/*-----------------------------
+    1. Student gallery css
+-------------------------------*/
+
+.student-gallery-area{
+  height: auto;
+}
+.running-student{
+  background: #fceaff;
+  padding: 70px 0;
+}
+.recent-pass-student{
+  background: #e1e1e1;
+  padding: 70px 0;
+}
+
+.old-student{
+  background: #fceaff;
+  padding: 70px 0;
+}
+
+
+.student-gallery-area .title{}
+  .student-gallery-area .title h2 {
+  	font-size: 60px;
+  	font-weight: 700;
+  	margin-bottom: 50px;
+  }
+.student-gallery-area .student-list{}
+  .student-gallery-area .student-list .list-wriper {
+  	background: #fff;
+  	padding-bottom: 30px;
+    margin-top: 30px;
+    transition: .4s;
+  }
+  .student-gallery-area .student-list .list-wriper:hover {
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+.student-gallery-area .student-list .all-student{}
+.student-gallery-area .student-list .all-student img{
+  width: 100%;
+}
+.student-gallery-area .student-list .about-student{
+  margin-top: 15px;
+}
+.student-gallery-area .student-list .about-student p{}
+  .student-gallery-area .student-list .details-btn {
+  	margin-top: 20px;
+  	width: 150px;
+  	height: 50px;
+  	background: #0ab601;
+  	display: inline-block;
+  	border-radius: 5px;
+  	position: relative;
+  	z-index: 9;
+    overflow: hidden;
+  }
+.student-gallery-area .student-list .details-btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: #ff0000;
+	z-index: -1;
+}
+.student-gallery-area .student-list .details-btn a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: 900;
+
+	letter-spacing: 1px;
+	z-index: 999999;
+}
+
+
+.recent-pass-student{}
+.old-student{}
+
+
+
+/*================ Student Creative Work =============*/
+
+
+.mix-button-wripper{}
+.mix-button-wripper button {
+	background: none;
+	border: 1px #000;
+	border-style: dashed;
+	padding: 5px 10px;
+}
+#Container .mix{
+	display: none;
+}
+/*-----------------------
+  2.  Student Work css
+-----------------------*/
+  .student-work-area{
+    background-image: url(img/work-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .student-work-area .student-work-content{
+    background: #fff;
+    color: #000000;
+    padding: 70px 20px;
+    margin: 30px 0;
+  }
+  .student-work-area .student-work-content .page-title{
+    margin-bottom: 60px;
+  }
+  .student-work-area .student-work-content h2{
+    font-size: 40px;
+    font-weight: 700;
+   }
+
+
+    .all-item{}
+    .all-item .mix{
+      margin-top: 30px;
+    }
+    .all-item .mix img{
+      width: 100%;
+      height: 200px;
+    }
+
+
+
+
+/*============ Teacher Gallery css ============*/
+
+
+/*-------------------------------
+    1. Teacher Gallery Area css
+--------------------------------*/
+
+.teacher-gallery-area{
+  background-image: url(img/groupe-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.teacher-gallery-wripper{
+  background: #fff;
+  margin-top: 30px;
+  padding: 30px 20px;
+}
+    .teacher-gallery-title{}
+      .teacher-gallery-title h2 {
+    	font-size: 40px;
+    	margin-bottom: 40px;
+    	font-weight: 700;
+    }
+.teacher-gallery-area .groupe-photo{
+
+}
+.teacher-gallery-area .groupe-photo img{
+    height:433px;
+    width: 100%;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+	font-size: 30px;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 0;
+	bottom: 50%;
+  transform: translateY(50%);
+}
+.owl-next {
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+  transform: translateY(50%);
+}
+
+
+.sub-area-title{}
+  .sub-area-title h3 {
+  	font-size: 35px;
+  	margin: 50px 0 20px 0;
+  }
+
+.teacher-gallery-area .teacher-image{
+  margin-top: 30px;
+}
+.teacher-gallery-area .teacher-image img{
+    width: 100%;
+}
+.teacher-gallery-area .details-btn {
+	margin-top: 30px;
+	text-align: center;
+}
+  .teacher-gallery-area .details-btn a {
+  	background: green;
+  	display: inline-block;
+  	color: #fff;
+  	padding: 10px 18px;
+  	text-decoration: none;
+    transition: .4s;
+  }
+  .teacher-gallery-area .details-btn a:hover {
+  	background: red;
+  	color: #fff;
+  }
+  
+  .img{
+      width: 100px;
+      height: 1500px;
+      margin-top: 10px;
+  }
+  
+  h2{
+      color: green;
+      font-family: cursive; 
+  }
+ 

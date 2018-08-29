@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.png">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Apply For Admisson</title>  <!-- Main Page Title  -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap style sheet  -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"> <!-- Font Awesome  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">  <!-- Font roboto  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">  <!-- Font Open Sans  -->
+    <link href="style.css" rel="stylesheet"> <!-- main StyleSheet -->
+    <link href="css/responsive.css" rel="stylesheet"> <!-- Responsive StyleSheet -->
+  </head>
+  <body>
+
+    <!--===== Header ===== -->
+    <header id="sticker" class="header">
+      <div class="menu-area"> <!-- Menu-area  -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 no-padding">    <!-- No Padding -->
+              <div class="logo hidden-sm"> <!-- Logo  -->
+                <a href="index.html"><img src="img/logo.png" alt=""></a>   <!-- Main logo -->
+              </div> <!-- Logo End  -->
+              <div class="dropdown mobile-menu hidden-sm hidden-md hidden-lg">    <!-- Mobile Menu -->
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>    <!-- Drop Down Button -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a href="index.html">Home</a></li>   <!-- Mobile Menu Home -->
+                  <li role="presentation"><a href="index.html">About Us</a></li> <!-- Mobile Menu About US -->
+                  <li role="presentation"><a href="index.html">Our Training</a></li> <!-- Mobile Menu Our Training -->
+                  <li class="mobibe-sub-menu" role="presentation"><a href="#">Gallery <span class="caret-right"><i class="fa fa-caret-right" aria-hidden="true"></i></span></a> <!-- Mobile Menu Gallery -->
+                    <div class="m-sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>    <!-- Mobile Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>    <!-- Mobile Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>  <!-- Mobile Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>   <!-- Mobile Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Mobile Menu Contact Us -->
+                  <li><a href="index.html">Log In </a></li> <!-- Mobile Menu Contact Us -->
+                </ul>
+              </div>    <!-- Mobile Menu end -->
+
+
+              <nav class="main-menu  hidden-xs"> <!-- Main-Menu  -->
+                <ul id="nav">
+                  <li><a href="index.html">Home</a></li>   <!-- Menu Home -->
+                  <li><a href="index.html">About Us</a></li> <!-- Menu About Us -->
+                  <li><a href="index.html">Our Training</a></li> <!-- Menu Our Training -->
+                  <li><a href="index.html">Our Service</a></li>  <!-- Menu Our Service -->
+                  <li class="sub-menu-base"><a href="#">Gallery</a> <!-- Menu Gallery -->
+                    <div class="sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>  <!-- Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>  <!-- Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>   <!-- Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>  <!-- Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Menu Contact Us -->
+                  <li><a href="log-in.html"><i class="fa fa-user" aria-hidden="true"></i></a></li> <!-- log in button  -->
+                </ul>
+              </nav> <!-- Main-Menu end  -->
+            </div>
+          </div>
+        </div>
+      </div> <!-- Menu-area end  -->
+    </header>
+      <!--===== Header end ===== -->
+
+    <div class="registration-form">   <!-- Ragistration form  -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <form class="registration-form-wripper" action="submit" method="post"> <!-- Ragistration form wripper  -->
+                <div class="form-title">
+                  <h2>Apply For Admisson</h2>   <!-- Ragistration form title  -->
+                </div>
+                <div class="form-lang">
+                  <p>*Write In English Please</p> <!-- Language Requard  -->
+                </div>
+                <div class="requard">
+                  <p>Importent</p>  <!-- Requard  -->
+                </div>
+                  <div class="input-index">  <!-- Personal Information form  -->
+                    <p>Name <span class="requard-alert">*</span></p>
+                    <input type="text" name="" value="" placeholder="Provide your name">  <!-- Input Name  -->
+                    <p>Phone number <span class="requard-alert">*</span></p>
+                    <input type="text" name="" value="" placeholder="Provide your number">  <!-- Input Phone Number  -->
+                    <p>Email</p>
+                    <input type="text" name="" value="" placeholder="Provide your Email">  <!-- Input Email  -->
+                  </div> <!-- Personal Information form end -->
+                    <div class="subject radio-click">   <!-- All Subject  -->
+                      <p>Subject (Choose Any One) <span class="requard-alert">*</span></p>
+                      <div class="reg-sub-choose radio-btns">  <!-- All Subject form  -->
+                        <ul>
+                          <li>
+                            <input type="radio" id="ms-office" name="subject" value="ms-office">    <!-- Ms Office  -->
+                            <label for="ms-office">Ms Office</label>  <!-- Ms Office label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="auto-cad" name="subject" value="auto-cad">  <!-- Auto cad  -->
+                            <label for="auto-cad">Auto Cad</label>    <!-- Auto cad label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="digital-marketing" name="subject" value="digital-marketing">  <!-- Digital Marketing  -->
+                              <label for="digital-marketing">Digital Marketing</label>  <!-- Digital marketing Label  -->
+                          </li>
+                          <li>
+                            <input type="radio" id="outsorucing" name="subject" value="outsorucing">  <!-- Outsorucing  -->
+                              <label for="outsorucing">Outsorucing</label>  <!-- Outsorucing label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="graphic-design" name="subject" value="graphic-design">  <!-- Graphic Design  -->
+                              <label for="graphic-design">Graphic Design</label>  <!-- Graphic Design label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="web-design" name="subject" value="web-design">  <!-- Web Design  -->
+                              <label for="web-design">Web Design</label>  <!-- Web Design label -->
+                            </li>
+                          <li>
+                            <input type="radio" id="hardware" name="subject" value="hardware">  <!-- Hardware  -->
+                              <label for="hardware">Hardware</label>  <!-- Hardware label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="multimedia" name="subject" value="multimedia">   <!-- Multimedia  -->
+                              <label for="multimedia">Multimedia</label>   <!-- Multimedia label -->
+                          </li>
+                        </ul>
+                      </div> <!-- All Subject form end  -->
+                    </div>    <!-- All Subject end -->
+                    <div class="division radio-click">   <!-- All Division  -->
+                      <p>Where you from ? <span class="requard-alert">*</span></p>
+                      <div class="division-choose radio-btns"> <!-- All Division form -->
+                        <ul>
+                          <li>
+                            <input type="radio" id="dhaka" name="division" value="dhaka">   <!-- Dhaka Division  -->
+                            <label for="dhaka">Dhaka</label>  <!-- Dhaka Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="rajshahi" name="division" value="rajshahi"> <!-- Rajshahi Division  -->
+                              <label for="rajshahi">Rajshahi</label>  <!-- Rajshahi Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="rangpur" name="division" value="rangpur"> <!-- Rangpur Division  -->
+                              <label for="rangpur">Rangpur</label>  <!-- Rangpur Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="comilla" name="division" value="comilla">   <!-- Comilla Division  -->
+                              <label for="comilla">Comilla</label>  <!-- Comilla Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="chittagong" name="division" value="chittagong">   <!-- Chittagong Division  -->
+                              <label for="chittagong">Chittagong</label>  <!-- Chittagong Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="barishal" name="division" value="barishal">   <!-- Barishal Division  -->
+                              <label for="barishal">Barishal</label>    <!-- Barishal Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="khulna" name="division" value="khulna"> <!-- Khulna Division  -->
+                              <label for="khulna">Khulna</label>  <!-- Khulna Division label -->
+                          </li>
+                          <li>
+                            <input type="radio" id="sylet" name="division" value="sylet">   <!-- Sylet Division  -->
+                              <label for="sylet">Sylet</label>  <!-- Sylet Division label -->
+                          </li>
+                        </ul>
+                      </div> <!-- All Division form end -->
+                    </div>  <!-- All Division end -->
+                    <div class="comment-box radio-click">  <!-- Comment box  -->
+                      <p>Comments</p>
+                      <input type="text" name="" value="" placeholder="provide your Comments">    <!-- Input comment  -->
+                    </div> <!-- Commet box end  -->
+                    <div class="submit-btn">
+                      <button type="button" name="button">Submit</button>   <!-- Submit button  -->
+                    </div>
+                </form>    <!-- Ragistration form wripper end -->
+              </div>
+            </div>
+          </div>
+        </div>    <!-- Ragistration form end  -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>   <!-- Bootstrap js -->
+        <script src="js/jquery.nav.js"></script>    <!-- One Page Nav js -->
+        <script src="js/parallax.min.js"></script>    <!-- Parallax js -->
+        <script src="js/jquery.sticky.js"></script>   <!-- Sticky js -->
+        <script src="js/owl.carousel.min.js"></script>  <!-- Owl Carosel js -->
+        <script src="js/jquery.mixitup.min.js"></script>  <!-- Mix it up js -->
+        <script src="js/main.js"></script>    <!-- Main js -->
+      </body>
+      <!--=== Body End=== -->
+</html>

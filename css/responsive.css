@@ -1,0 +1,576 @@
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+    .container{width: 880px}
+
+    .no-padding{
+      padding: 0;
+    }
+
+    .menu-area .main-menu ul li a {
+  	padding: 8px 8px;
+  }
+
+  /*------------------
+      Intro css
+  ---------------------*/
+
+  .intro .intro-contant {
+	padding: 80px 30px;
+}
+.intro .intro-contant h1 .smal {
+	font-size: 90PX;
+}
+.intro .intro-contant h1 .medium {
+	font-size: 92px;
+}
+.intro .intro-contant h1 .big {
+	font-size: 140px;
+}
+
+/*------------------
+    Our Training css
+---------------------*/
+
+.training-area .training-items .item .training-base img {
+	width: auto;
+}
+.all-btn a{
+  font-size: 38px;
+}
+/*------------------
+    Our Service css
+---------------------*/
+.service-area .service-items .s-item{
+  margin-top: 30px;
+}
+/*------------------
+    Download-app css
+---------------------*/
+.download-app img {
+	width: 100%;
+}
+/*------------------
+    Contact Us css
+---------------------*/
+.contact-us-area .contact-form button{
+  margin-right: 0;
+}
+
+
+
+.menu-area .main-menu ul .sub-menu-base:hover .sub-menu {
+	top: 45px;
+	visibility: visible;
+}
+
+
+/*================== Registration form ==============*/
+
+.registration-form .registration-form-wripper {
+	width: 90%;
+}
+
+.input-index input {
+	width: 80%;
+}
+
+/*================== Service Form ==============*/
+
+.service-form-area .service-form-wripper {
+	width: 75%
+}
+
+
+/*================== Teacher Gallery ==============*/
+
+.teacher-gallery-area .details-btn a {
+	margin-top: 5px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container{width: 750px}
+
+
+
+.no-padding{
+  padding: 0;
+}
+/*------------------
+    Menu css
+---------------------*/
+.header {
+	margin-bottom: 0;
+}
+
+.menu-area .logo img {
+	height: 70px;
+}
+.menu-area .main-menu ul li {
+	margin-left: -2px;
+}
+.menu-area .main-menu ul li a {
+	padding: 5px;
+}
+.menu-area .main-menu {
+	float: none;
+}
+.menu-area .main-menu ul .sub-menu-base:hover .sub-menu {
+	top: 25px;
+	left: -38px;
+}
+
+/*------------------
+    Intro css
+---------------------*/
+.intro .intro-contant {
+	padding: 70px 30px;
+}
+.intro .intro-contant h1 .smal {
+	font-size: 80PX;
+}
+.intro .intro-contant h1 .medium {
+	font-size: 82PX;
+}
+.intro .intro-contant h1 .big {
+	font-size: 125px;
+}
+.about-area .special-options p .arrow-icon {
+	padding-left: 0;
+}
+/*------------------
+    Our Training css
+---------------------*/
+
+.training-area .training-items .item .training-base img {
+	width: auto;
+}
+.training-area .training-items {
+	margin: 15px 0;
+}
+
+.all-btn a{
+  font-size: 30px;
+  line-height: 65px;
+}
+/*------------------
+    Our Service css
+---------------------*/
+
+.service-area .service-items .s-item{
+  margin-top: 30px;
+}
+
+/*------------------
+    Download-app css
+---------------------*/
+.download-app{}
+.download-app img{
+  width: 100%;
+}
+/*------------------
+    Contact Us css
+---------------------*/
+.contact-us-area .location {
+	margin: 30px 0;
+}
+.social-icons .social-i {
+	height: 50px;
+	width: 50px;
+	font-size: 25px;
+	line-height: 50px;
+}
+.contact-us-area .sub-title h5 {
+	font-size: 45px;
+	margin-top: 40px;
+}
+.contact-us-area .contact-form button{
+  margin-right: 35%;
+}
+.call-now {
+	margin-top: 30px;
+}
+
+
+.menu-area .main-menu ul .sub-menu-base:hover .sub-menu {
+	top: 35px;
+}
+
+/*================== Notice Board ==============*/
+
+.notice-board-area {
+	padding: 20px 0;
+}
+.main-board .top-notice {
+	margin-bottom: 20px;
+}
+
+/*================== Registration form ==============*/
+
+.registration-form .registration-form-wripper {
+	width: 100%;
+}
+.input-index input {
+	width: 80%;
+}
+
+/*================== Service Form ==============*/
+
+.service-form-area .service-form-wripper {
+	width: 85%;
+}
+
+
+.student-gallery-area .title h2 {
+	font-size: 45px;
+  margin-bottom: 15px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+  .container{width:300px}
+
+/*------------------------
+  Mobile menu
+  ------------------------*/
+  .btn-default {
+  	color: #000;
+  	border: none;
+  	float: left;
+  }
+  .btn{
+    font-size: 30px;
+    margin-top: 10px;
+    background: none;
+  }
+  .dropdown-menu {
+  	margin-top: 65px;
+  	font-size: 18px;
+  	min-width: 140px;
+  }
+  .dropdown-menu > li > a {
+	padding: 10px 20px;
+  position: relative;
+}
+.mobibe-sub-menu{
+  position: relative;
+}
+.mobibe-sub-menu .m-sub-menu {
+	position: absolute;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 5px;
+	right: -160px;
+	top: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+.mobibe-sub-menu:hover .m-sub-menu {
+  opacity: 1;
+  visibility: visible;;
+}
+.mobibe-sub-menu .m-sub-menu ul{
+  margin-left: -40px;
+}
+.mobibe-sub-menu .m-sub-menu ul li {
+
+}
+.mobibe-sub-menu .m-sub-menu ul li a {
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 18px;
+  transition: .5s;
+}
+.caret-right{
+margin: 8px;
+}
+.mobibe-sub-menu .sub-menu ul li a:hover{
+  background: #f5f5f5;
+}
+  /*----------------
+      2. Menu-area css
+  ------------------*/
+
+  .menu-area .logo {
+	float: right;
+}
+  .intro .intro-contant {
+  	padding: 48px 0px;
+  }
+  .intro .intro-contant h1 .smal {
+  	font-size: 35PX;
+  }
+  .intro .intro-contant h1 .medium {
+	font-size: 38PX;
+}
+.intro .intro-contant h1 .big {
+	font-size: 70px;
+}
+  /*----------------
+      4. About Us css
+  ------------------*/
+  .about-area {
+  	padding: 30px 0;
+  }
+  .title h2 {
+  	font-size: 45px;
+  	text-align: center;
+  }
+  .about-area .description p{
+    text-align: center;
+  }
+  .about-area .special-options p .arrow-icon {
+	padding-left: 0;
+}
+  /*----------------
+      4. Our Training css
+  ------------------*/
+  .training-area {
+  	padding: 30px 0;
+  }
+  .all-btn a {
+  	font-size: 25px;
+    padding: 5px 50px;
+    line-height: normal;
+  }
+  /*----------------
+      5. Our Service css
+  ------------------*/
+  .service-area {
+	padding: 30px 0;
+}
+  .service-area .service-items .s-item{
+    margin-top: 30px;
+  }
+  /*-----------------------
+      7. Download app css
+  -------------------------*/
+  .download-app{
+    padding: 40px;
+  }
+  .download-app img{
+    width: 100%;
+  }
+  /*-----------------------
+      8. Contact Us css
+  -------------------------*/
+  .contact-us-area {
+	padding: 30px 0;
+}
+.contact-us-area .location {
+	margin: 25px 0;
+}
+.social-icons .social-i {
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	line-height: 40px;
+}
+.contact-us-area .sub-title {
+	margin-top: 35px;
+}
+.contact-us-area .sub-title h5 {
+	font-size: 38px;
+}
+.contact-us-area .contact-form input {
+	width: 100%;
+	margin: 15px 0;
+}
+.contact-us-area .contact-form textarea {
+	width: 100%;
+	margin: 15px 0;
+}
+.contact-us-area .contact-form button{
+  margin-right: 0;
+}
+.call-now p {
+	font-size: 30px;
+	margin-top: 30px;
+}
+.contact-us-area .location .phone {
+	text-align: center;
+}
+
+.contact-us-area .location .location-details p {
+	display: block;
+}
+
+
+/*================== Log In Page ==============*/
+
+.log-in-form-area .log-in-form {
+	padding: 25px;
+}
+
+.log-in-form-area .log-in-form input {
+	width: 265px;
+}
+
+/*================== Notice Board ==============*/
+
+.notice-board-area {
+	padding: 20px 0;
+}
+
+.notice-board-area .title h3 {
+	font-size: 25px;
+}
+
+.notice-board-area .top-notice-wriper {
+	margin-left: 0;
+	text-align: center;
+}
+.notice-board-area .top-notice-owner .notice-owner-image {
+	float: none;
+}
+.notice-board-area .notice-owner-description {
+	margin-left: 0;
+}
+
+.notice-board-area .notice-owner-description p {
+	font-size: 17px;
+	line-height: 27px;
+	letter-spacing: 0px;
+}
+
+.main-board .top-notice {
+	margin-bottom: 30px;
+}
+
+.Previous-notice .pre-notice {
+	margin-top: 15px;
+}
+
+/*================== Registration form ==============*/
+.registration-form .registration-form-wripper {
+	width: 100%;
+}
+
+/*================== Notice Board ==============*/
+
+.notice-board-area .notice-owner-description {
+display: block;
+}
+
+.registration-form .admisson-form .form-title h2 {
+font-size: 22px;
+font-weight: 700;
+}
+.registration-form .admisson-form .form-lang p {
+font-size: 14px;
+}
+
+.input-index p {
+font-size: 18px;
+}
+
+.input-index input {
+width: 100%;
+font-size: 14px;
+}
+
+.radio-click {
+font-size: 16px;
+}
+
+.radio-click .radio-btns {
+font-size: 16px;
+}
+.radio-click .radio-btns ul li {
+margin: 0px 0;
+}
+
+.radio-click .radio-btns ul li input {
+margin-right: 15px;
+height: 16px;
+width: 16px;
+}
+
+/*================== Service Form ==============*/
+
+.service-form-area .service-form-wripper {
+	width: 100%;
+  padding: 40px 20px;
+}
+
+.service-form-area .service-form-title h2 {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.service-form-area .order-form p {
+	font-size: 20px;
+}
+.service-form-area .order-form input {
+	font-size: 15px;
+}
+
+/*================== Student Gallery ==============*/
+
+.student-gallery-area .title h2 {
+	font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/*================== Student work ==============*/
+
+
+.student-work-area .student-work-content {
+	padding: 35px 20px;
+}
+.student-work-area .student-work-content h2 {
+	font-size: 30px;
+}
+
+button {
+	margin-top: 8px;
+}
+
+  /*================== Teacher Gallery ==============*/
+
+  .teacher-gallery-wripper {
+  	padding: 20px 20px;
+  }
+  .teacher-gallery-title h2 {
+  	font-size: 30px;
+  }
+
+  .owl-theme .owl-nav [class*="owl-"] {
+	font-size: 15px;
+}
+.sub-area-title h3 {
+	font-size: 30px;
+}
+.teacher-gallery-area .details-btn a {
+	margin-top: 5px;
+}
+
+
+}
+
+
+@media (min-width: 480px) and (max-width: 767px){
+  .container{width: 450px}
+
+
+  /*================== Log In Page ==============*/
+
+
+
+
+
+}

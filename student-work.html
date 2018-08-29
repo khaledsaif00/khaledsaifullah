@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.png">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Student Creative Works</title>     <!-- Main page title -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap style Sheet -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">   <!-- Font roboto -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">   <!-- Font Awesome -->
+    <link href="style.css" rel="stylesheet">    <!-- Main Style Sheet -->
+    <link href="css/responsive.css" rel="stylesheet">   <!-- Responsive Style Sheet -->
+  </head>
+  <!--===== Body ====== -->
+  <body>
+
+    <!--===== Header ===== -->
+    <header id="sticker" class="header">
+      <div class="menu-area"> <!-- Menu-area  -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 no-padding">    <!-- No Padding -->
+              <div class="logo hidden-sm"> <!-- Logo  -->
+                <a href="index.html"><img src="img/logo.png" alt=""></a>   <!-- Main logo -->
+              </div> <!-- Logo End  -->
+              <div class="dropdown mobile-menu hidden-sm hidden-md hidden-lg">    <!-- Mobile Menu -->
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>    <!-- Drop Down Button -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a href="index.html">Home</a></li>   <!-- Mobile Menu Home -->
+                  <li role="presentation"><a href="index.html">About Us</a></li> <!-- Mobile Menu About US -->
+                  <li role="presentation"><a href="index.html">Our Training</a></li> <!-- Mobile Menu Our Training -->
+                  <li class="mobibe-sub-menu" role="presentation"><a href="#">Gallery <span class="caret-right"><i class="fa fa-caret-right" aria-hidden="true"></i></span></a> <!-- Mobile Menu Gallery -->
+                    <div class="m-sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>    <!-- Mobile Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>    <!-- Mobile Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>  <!-- Mobile Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>   <!-- Mobile Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Mobile Menu Contact Us -->
+                  <li><a href="index.html">Log In </a></li> <!-- Mobile Menu Contact Us -->
+                </ul>
+              </div>    <!-- Mobile Menu end -->
+
+
+              <nav class="main-menu  hidden-xs"> <!-- Main-Menu  -->
+                <ul id="nav">
+                  <li><a href="index.html">Home</a></li>   <!-- Menu Home -->
+                  <li><a href="index.html">About Us</a></li> <!-- Menu About Us -->
+                  <li><a href="index.html">Our Training</a></li> <!-- Menu Our Training -->
+                  <li><a href="index.html">Our Service</a></li>  <!-- Menu Our Service -->
+                  <li class="sub-menu-base"><a href="#">Gallery</a> <!-- Menu Gallery -->
+                    <div class="sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>  <!-- Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>  <!-- Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>   <!-- Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>  <!-- Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Menu Contact Us -->
+                  <li><a href="log-in.html"><i class="fa fa-user" aria-hidden="true"></i></a></li> <!-- log in button  -->
+                </ul>
+              </nav> <!-- Main-Menu end  -->
+            </div>
+          </div>
+        </div>
+      </div> <!-- Menu-area end  -->
+    </header>
+      <!--===== Header end ===== -->
+
+    <!--===== Student Work ===== -->
+      <div class="student-work-area">
+        <div class="container">
+          <div class="student-work-content">  <!-- Student Work contant -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="page-title">
+                  <h2>Our Student Works</h2>    <!-- Page title -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <div class="mix-button-wripper">
+                  <button type="button" class="filter" data-filter=".all">All</button>    <!-- Button All -->
+                  <button type="button" class="filter" data-filter=".graphic-design">Graphic Design</button> <!-- Button Graphic design -->
+                  <button type="button" class="filter" data-filter=".web-design">Web Design</button> <!-- button Web design -->
+                  <button type="button" class="filter" data-filter=".multimedia">Multimedia</button>   <!-- button multimedia -->
+                  <button type="button" class="filter" data-filter=".ms-office">Ms Office</button> <!-- Ms Office -->
+                  <button type="button" class="filter" data-filter=".auto-cad">Auto Cad</button> <!-- Button auto cad -->
+                  <button type="button" class="filter" data-filter=".digital-marketing">Dgital Marketing</button>  <!-- digital marketing -->
+                  <button type="button" class="filter" data-filter=".outsorucing">Outsorucing</button> <!-- outsorucing -->
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div id="Container" class="all-item">    <!-- Student Work items -->
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design" data-my-order="1"><img src="img/gd-1.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design multimedia" data-my-order="2"><img src="img/gd-2.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design web-design" data-my-order="3"><img src="img/gd-3.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design ms-office" data-my-order="4"><img src="img/gd-4.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design multimedia" data-my-order="5"><img src="img/gd-5.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design ms-office" data-my-order="6"><img src="img/gd-6.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design web-design" data-my-order="7"><img src="img/gd-7.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design web-design" data-my-order="8"><img src="img/gd-8.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all multimedia" data-my-order="9"><img src="img/gd-9.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design" data-my-order="10"><img src="img/gd-10.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design" data-my-order="11"><img src="img/wd-1.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design multimedia" data-my-order="12"><img src="img/wd-2.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design" data-my-order="13"><img src="img/wd-3.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design" data-my-order="14"><img src="img/wd-4.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design" data-my-order="15"><img src="img/wd-5.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all graphic-design ms-office" data-my-order="16"><img src="img/gd-3.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all ms-office" data-my-order="24"><img src="img/gd-7.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design auto-cad" data-my-order="17"><img src="img/wd-3.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design auto-cad" data-my-order="18"><img src="img/wd-2.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all web-design auto-cad" data-my-order="19"><img src="img/wd-1.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all digital-marketing" data-my-order="20"><img src="img/gd-7.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all digital-marketing outsorucing" data-my-order="21"><img src="img/gd-8.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all digital-marketing" data-my-order="22"><img src="img/gd-6.jpg" alt="Load Fail"></div>
+                <div class="col-lg-3 col-xs-6 col-md-4 mix all digital-marketing outsorucing" data-my-order="23"><img src="img/gd-1.jpg" alt="Load Fail"></div>
+            </div>    <!-- Student Work items end -->
+            </div>
+          </div>  <!-- Student Work contant end -->
+        </div>
+      </div>
+        <!--===== Student Work end ===== -->
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>   <!-- Bootstrap js -->
+      <script src="js/jquery.nav.js"></script>    <!-- One Page Nav js -->
+      <script src="js/parallax.min.js"></script>    <!-- Parallax js -->
+      <script src="js/jquery.sticky.js"></script>   <!-- Sticky js -->
+      <script src="js/owl.carousel.min.js"></script>  <!-- Owl Carosel js -->
+      <script src="js/jquery.mixitup.min.js"></script>  <!-- Mix it up js -->
+      <script src="js/main.js"></script>    <!-- Main js -->
+    </body>
+    <!--=== Body End=== -->
+</html>

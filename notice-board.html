@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.png">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Daily Notice Board</title>  <!-- Main Page Title  -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap style sheet  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"> <!-- Font roboto  -->
+    <link href="css/font-awesome.min.css" rel="stylesheet"> <!-- Font Awesome  -->
+    <link href="style.css" rel="stylesheet">  <!-- Main Style Sheet  -->
+    <link href="css/responsive.css" rel="stylesheet">   <!-- Responsive style Sheet  -->
+  </head>
+  <!-- body  -->
+  <body>
+    <!--===== Header ===== -->
+    <header id="sticker" class="header">
+      <div class="menu-area"> <!-- Menu-area  -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 no-padding">    <!-- No Padding -->
+              <div class="logo hidden-sm"> <!-- Logo  -->
+                <a href="index.html"><img src="img/logo.png" alt=""></a>   <!-- Main logo -->
+              </div> <!-- Logo End  -->
+              <div class="dropdown mobile-menu hidden-sm hidden-md hidden-lg">    <!-- Mobile Menu -->
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><i class="fa fa-bars" aria-hidden="true"></i></button>    <!-- Drop Down Button -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                  <li role="presentation"><a href="index.html">Home</a></li>   <!-- Mobile Menu Home -->
+                  <li role="presentation"><a href="index.html">About Us</a></li> <!-- Mobile Menu About US -->
+                  <li role="presentation"><a href="index.html">Our Training</a></li> <!-- Mobile Menu Our Training -->
+                  <li class="mobibe-sub-menu" role="presentation"><a href="#">Gallery <span class="caret-right"><i class="fa fa-caret-right" aria-hidden="true"></i></span></a> <!-- Mobile Menu Gallery -->
+                    <div class="m-sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>    <!-- Mobile Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>    <!-- Mobile Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>  <!-- Mobile Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>   <!-- Mobile Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Mobile Menu Contact Us -->
+                  <li><a href="index.html">Log In </a></li> <!-- Mobile Menu Contact Us -->
+                </ul>
+              </div>    <!-- Mobile Menu end -->
+
+
+              <nav class="main-menu  hidden-xs"> <!-- Main-Menu  -->
+                <ul id="nav">
+                  <li><a href="index.html">Home</a></li>   <!-- Menu Home -->
+                  <li><a href="index.html">About Us</a></li> <!-- Menu About Us -->
+                  <li><a href="index.html">Our Training</a></li> <!-- Menu Our Training -->
+                  <li><a href="index.html">Our Service</a></li>  <!-- Menu Our Service -->
+                  <li class="sub-menu-base"><a href="#">Gallery</a> <!-- Menu Gallery -->
+                    <div class="sub-menu">
+                      <ul>
+                        <li><a href="student-gallery.html">Student Gallery</a></li>  <!-- Menu Student Gallery -->
+                        <li><a href="teacher-gallery.html">Teacher Gallery</a></li>  <!-- Menu Teacher Gallery -->
+                        <li><a href="student-work.html">Student Work</a></li>   <!-- Menu Student Work -->
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="notice-board.html">Notice</a></li>  <!-- Menu Notice -->
+                  <li><a href="index.html">Contact Us</a></li> <!-- Menu Contact Us -->
+                  <li><a href="log-in.html"><i class="fa fa-user" aria-hidden="true"></i></a></li> <!-- log in button  -->
+                </ul>
+              </nav> <!-- Main-Menu end  -->
+            </div>
+          </div>
+        </div>
+      </div> <!-- Menu-area end  -->
+    </header>
+      <!--===== Header end ===== -->
+
+    <!--===== Notice Board Area =====-->
+      <div class="notice-board-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="main-board-wriper">   <!-- Main board wripper  -->
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="title text-center"> <!-- page title  -->
+                      <h3><i>Daily Notice Board</i></h3>
+                    </div>  <!-- page title end -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="top-notice-wriper">   <!-- Tom Notice area wripper  -->
+                      <div class="top-notice-title">
+                        <h4>Last Notice Posted By :</h4>   <!-- Tom Notice posted by  -->
+                      </div>
+                      <div class="top-notice-owner">     <!-- Tom Notice Owner area  -->
+                        <div class="notice-owner-image">
+                          <img src="img/Untitled-1.jpg" alt="">   <!-- Tom Notice Owner image  -->
+                        </div>
+                        <div class="notice-owner-description">
+                          <p><span class="bold">Name :</span>MD KHALED SAIF  <br>   <!-- Tom Notice Owner image  -->
+                            <span class="bold">Designation :</span> CEO   <!-- Tom Notice Owner dagignation  -->
+                          </p>
+                        </div>
+                      </div>  <!-- Tom Notice Owner area end  -->
+                    </div>   <!-- Tom Notice area wripper end  -->
+                  </div>
+                </div>
+                <div class="main-board">    <!-- Main Notice Board  -->
+                  <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-8 col-md-8">
+                          <div class="top-notice">
+                            <div class="board-pin"></div>   <!-- Top notice emty board  -->
+                              <img src="img/pin_2.png" alt="">  
+                              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                              <h2>For More Information </h2>
+                              <h3>Please Contact:- </h3>
+                              <h4>MD SAIDUR RAHAMAN</h4>
+                              <h4>Contact No: 01682927354 </h4>
+                            
+                              
+                              
+                              <!-- Main Notice Board pin  -->
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-8 col-md-4">
+                          <div class="calender">   <!-- Calender  -->
+                              <div class="month"> <!-- Month  -->
+                                <ul>
+                                  <li class="prev">&#10094;</li>  <!-- Preview Button  -->
+                                  <li class="next">&#10095;</li>  <!-- Next Button  -->
+                                  <li class="text-center">
+                                    October <br>
+                                    <span class="year-font">2018</span> <!-- Year  -->
+                                  </li>
+                                </ul>
+                              </div>  <!-- Month end  -->
+
+                              <ul class="weekdays">   <!-- all days  -->
+                                <li>Sa</li>
+                                <li>Su</li>
+                                <li>Mo</li>
+                                <li>Tu</li>
+                                <li>We</li>
+                                <li>Th</li>
+                                <li>Fr</li>
+                              </ul>   <!-- all days end  -->
+
+                              <ul class="days"> <!-- all dates  -->
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>  <!-- all Date  -->
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li>15</li>
+                                <li>16</li>
+                                <li><span class="active">17</span></li>
+                                <li>18</li>
+                                <li>19</li>
+                                <li>20</li>
+                                <li>21</li>
+                                <li>22</li>
+                                <li>23</li>
+                                <li>24</li>
+                                <li>25</li>
+                                <li>26</li>
+                                <li>27</li>
+                                <li>28</li>
+                                <li>29</li>
+                                <li>30</li>
+                                <li>31</li>
+                              </ul>   <!-- all dates end  -->
+
+                          </div>  <!-- Calender end  -->
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-md-4">
+                          <div class="last-date">
+                            <p><span class="bold">Last Date : </span> <mark>17/10/2018</mark></p>   <!-- Last Date  -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="Previous-notice">   <!-- Previews notice  -->
+                        <div class="col-lg-12 col-sm-12">
+                          <div class="col-lg-4 col-sm-4">
+                            <div class="previous-1 pre-notice">
+                              <img src="img/previous-img.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-4">
+                            <div class="previous-2 pre-notice">
+                              <img src="img/previous-img.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-4">
+                            <div class="previous-3 pre-notice">
+                              <img src="img/previous-img.jpg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>  <!-- Previews notice end  -->
+                    </div>
+                  </div>   <!-- Main Notice Board end  -->
+                </div>    <!-- Main board wripper end  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== Notice Board Area end =====-->
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>   <!-- Bootstrap js -->
+        <script src="js/jquery.nav.js"></script>    <!-- One Page Nav js -->
+        <script src="js/parallax.min.js"></script>    <!-- Parallax js -->
+        <script src="js/jquery.sticky.js"></script>   <!-- Sticky js -->
+        <script src="js/owl.carousel.min.js"></script>  <!-- Owl Carosel js -->
+        <script src="js/jquery.mixitup.min.js"></script>  <!-- Mix it up js -->
+        <script src="js/main.js"></script>    <!-- Main js -->
+      </body>
+      <!--=== Body End=== -->
+</html>
